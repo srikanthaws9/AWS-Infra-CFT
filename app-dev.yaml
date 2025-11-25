@@ -1,0 +1,12 @@
+Resources:
+  S3BucketDemo:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-demo-appbucket-1243456-dev
+      Tags:
+        - Key: Environment
+          Value: Development
+        - Key: Project
+          Value: S3Demo
+        - Key: Owner
+          Value: DevTeam
