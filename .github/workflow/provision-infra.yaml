@@ -1,3 +1,4 @@
+Name: Provision AWS Infrastructure
 on:
   push:
     branches:
