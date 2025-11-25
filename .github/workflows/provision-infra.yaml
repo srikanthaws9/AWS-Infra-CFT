@@ -22,5 +22,5 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: S3DemoStack
-          template: .github/workflow/app-dev.yaml
+          template: app-dev.yaml
           no-fail-on-empty-changeset: true
